@@ -14,8 +14,8 @@ on:
         default: false
         type: boolean
 env:
-  REGISTRY: ${{ env.REGISTRY }}
-  IMAGE_NAME: ${{ env.IMAGE_NAME }}
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository_owner }}/sharelatex-base
 
 jobs:
   build-and-push:
