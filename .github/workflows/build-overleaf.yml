@@ -8,9 +8,9 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/sharelatex
+  IMAGE_NAME: gianmarcosboaretto/sharelatex
   BASE_REGISTRY: ghcr.io
-  BASE_IMAGE_NAME: ${{ github.repository_owner }}/sharelatex-base
+  BASE_IMAGE_NAME: gianmarcosboaretto/sharelatex-base
 
 jobs:
   build-and-push:
